@@ -1,0 +1,27 @@
+{
+    "name": "Blob Emojis for PushBullet SMS",
+
+    "version": "1.0",
+
+    "description": "Replace system emojis by old \"blobs\" emojis from Android 6.0.1 on the PushBullet SMS website",
+
+    "content_scripts": [
+        {
+          "matches": ["https://www.pushbullet.com/*"],
+          "js": ["replace-emoji/replace.js"]
+        }
+    ],
+
+    "icons": {
+        "48": "resources/icons/icon_48.png",
+        "96": "resources/icons/icon_96.png",
+        "128": "resources/icons/icon_128.png"
+    },
+
+    "developer": {
+        "name": "Matthieu Houdebine",
+        "url": "https://github.com/mathoudebine/blob-emojis-pushbullet-webext"
+    },
+
+    "manifest_version": 2
+}

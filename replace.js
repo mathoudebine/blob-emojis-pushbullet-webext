@@ -1,6 +1,6 @@
 // Create <style> element
 var style = document.createElement("style")
-style.innerHTML = ".text-part {" +
+style.innerHTML = ".text-part, #message {" +
                   "font-family: 'Noto Color Emoji', \"Helvetica Neue\", Helvetica, Arial, sans-serif;" +
                   "}";
                    
